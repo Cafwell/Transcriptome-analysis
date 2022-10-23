@@ -1,5 +1,6 @@
 # Some knowledges
-mRNA (messenger RNA) messenger RNA, it consists of a coding region (CDS) , an upstream 5'-non-coding region and a downstream 3'-non-coding region.   
+## EST
+mRNA (messenger RNA) messenger RNA, it consists of a coding sequence (CDS) , an upstream 5'-non-coding region and a downstream 3'-non-coding region.   
 The 5'-end of eukaryotic mRNA has a 7-methylguanosine cap structure and a polyadenylate tail at the 3'-end.    
 However, the NCBI mRNA sequence is actually a cDNA sequence, that is, a DNA sequence complementary to the RNA sequence after reverse transcription, and generally does not include a 3'-polyadenylate tail. A cDNA sequence is called a *transcript*.    
 
@@ -13,4 +14,10 @@ The EST (expressed sequence tag): a randomly selected cDNA clone, the 5'-and 3'-
 
 ![1-s2 0-S0968000499014000-gr2](https://user-images.githubusercontent.com/113126173/197329619-58950574-22f1-494c-ac66-77a7a5051e8b.jpg)
 
+## Open reading frame (ORF) and coding sequence (CDS)
++ Open reading frame (ORF) - a sequence that starts with a **Start codon** and ends with a **Stop codon**; Or it can express proteins that are dominant or have biological functions.
++ Coding sequence (CDS) - The portion of DNA that codes for transcription of messenger RNA
 
+ORF -- translation ; CDS -- transcription
+
+A CDS must contain an ORF and can even include many ORFs. Conversely, not every ORF is a CDS.
