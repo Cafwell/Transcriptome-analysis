@@ -4,3 +4,4 @@
 + FTP site is ftp://ftp.sanger.ac.uk/pub/project/pathogens/Trypanosoma/congolense, input it into windows adresss bar of File management;
 + Using Linux environment(Ubuntu), create a new folder and trans all ESTs data into it;
 + Unzip using `gzip -d filename` and get the fas data;
+
