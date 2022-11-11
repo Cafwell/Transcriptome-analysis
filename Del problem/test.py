@@ -1,8 +1,8 @@
-
 import re
+import os
 
 # make fasta data into single line format
-fr = open('dash.fas', 'r')  # read
+fr = open('Tcongo_epimastigote.fas', 'r')  # read, and it is the input data(make sure it is in the same folder of this script)
 fw = open('single_line.fas', 'w')  # write
 seq = {}
 for line in fr:
@@ -19,20 +19,19 @@ for i in seq.keys():
     fw.write('\n')
 fw.close()
 
-# Find 'A-T' like thing and delete data containing this
-missing = re.compile(r'[A-T]\-[A-T]')
+# Find '-' and delete data containing it
+missing = re.compile(r'[A-T]-|-{2,}|-[A-T]')
 file = open('single_line.fas', 'r')
 result = []
 for line in file:
-    print(line)
-    print(missing.search(line))
     if missing.search(line):
         pass
     else:
         result.append(line)
 file.close()
 
-file = open(r'del_data.txt', 'w')
+file = open(r'del_Tcongo_epimastigote.fas', 'w') # rename the out put data here
 for j in result:
     file.write(j)
 file.close()
+os.remove('single_line.fas') # delete single_line.fas caz dont need it
