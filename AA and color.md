@@ -1,5 +1,6 @@
-![aa_color](https://github.com/Cafwell/Transcriptome-analysis/blob/main/imgs/aa_color.png)
+From [IMGT](https://www.imgt.org/IMGTScientificChart/RepresentationRules/colormenu.php)
 
+![aa_color](https://github.com/Cafwell/Transcriptome-analysis/blob/main/imgs/aa_color.png)
 
  	[230,6,6]	[#E60606]	R - Arg - Arginine
  	[198,66,0]	[#C64200]	K - Lys - Lysine
